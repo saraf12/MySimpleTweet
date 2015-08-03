@@ -18,19 +18,20 @@
             android:id="@+id/ivProfileImage"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginRight="10dp"
+            android:src="@android:drawable/screen_background_light_transparent"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:src="@android:drawable/screen_background_light_transparent" />
+            android:layout_alignParentStart="true" />
         <TextView
             android:id="@+id/tvFullName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textSize="16dp"
+            android:textSize="20dp"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/ivProfileImage"
-            android:layout_toEndOf="@+id/ivProfileImage" />
+            android:layout_toEndOf="@+id/ivProfileImage"
+            android:textColor="#ff000000" />
 
         <TextView
             android:id="@+id/tvTagline"
@@ -38,7 +39,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="@+id/tvFullName"
             android:layout_below="@+id/tvFullName"
-            android:textSize="12sp"/>
+            android:textSize="12sp"
+            android:textColor="#ff000000" />
     </RelativeLayout>
 
     <LinearLayout
@@ -65,9 +67,9 @@
     <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@+id/rlUserHaeder"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/flContainer">
+        android:id="@+id/flContainer"
+        android:layout_below="@+id/llCount">
     </FrameLayout>
 </RelativeLayout>

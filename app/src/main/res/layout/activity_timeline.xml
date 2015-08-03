@@ -9,7 +9,8 @@
         app:pstsShouldExpand="true"
         app:pstsTextAllCaps="true"
         android:layout_width="match_parent"
-        android:layout_height="48dp">
+        android:layout_height="48dp"
+        android:background="#aa000000">
     </com.astuetz.PagerSlidingTabStrip>
 
     <android.support.v4.view.ViewPager
@@ -17,5 +18,5 @@
         android:layout_below="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white" />
+        android:background="@android:color/black" />
 </RelativeLayout>

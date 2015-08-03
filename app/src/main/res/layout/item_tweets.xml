@@ -29,5 +29,6 @@
         android:id="@+id/tvBody"
         android:layout_below="@+id/tvUserName"
         android:layout_toRightOf="@+id/IvProfileImage"
-        android:layout_toEndOf="@+id/IvProfileImage" />
+        android:layout_toEndOf="@+id/IvProfileImage"
+        android:textColor="#ffffffff" />
 </RelativeLayout>
